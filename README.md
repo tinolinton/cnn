@@ -39,5 +39,5 @@ This project leverages deep learning techniques to automate the identification o
 
 ### Prerequisites  
 Ensure you have the following installed:  
-- Python 3.8 or later  
+- Python 3.9 or later  
 - Required libraries (install via `requirements.txt`)
