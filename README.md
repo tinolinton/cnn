@@ -33,11 +33,14 @@ This project leverages deep learning techniques to automate the identification o
 - **Matplotlib**  
 - **Seaborn**  
 
+
+
+
 ---
 
 ## Getting Started  
 
 ### Prerequisites  
 Ensure you have the following installed:  
-- Python 3.9 or later  
-- Required libraries (install via `requirements.txt`)
+- Python 3.9 or 3.10  
+- Required libraries (install via `%pip install tensorflow opencv-python scikit-learn matplotlib seaborn`)
