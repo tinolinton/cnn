@@ -69,11 +69,41 @@ Ensure you have the following installed:
 ### Usage
 
 1. Prepare your dataset by organizing images into the appropriate directories (`train`, `val`, `test`).
-2. Run the Jupyter notebooks provided to preprocess the data, train the model, and evaluate performance:
-   - [EVENING190125SUNDAY[1].ipynb](EVENING190125SUNDAY[1].ipynb)
-   - `latest wit resnet functioning.ipynb`
-   - [optimized.ipynb](http://_vscodecontentref_/1)
-   - [project.ipynb](http://_vscodecontentref_/2)
+2. Run the Jupyter notebook provided to preprocess the data, train the model, and evaluate performance:
+   - [project.ipynb](http://_vscodecontentref_/1)
+
+### Notebook Overview
+
+The notebook is structured as follows:
+
+1. **Importing Libraries**: Import necessary libraries for data processing, visualization, and model building.
+2. **Dataset Preparation**: Load and preprocess the dataset, including resizing, normalization, and augmentation.
+3. **Exploratory Data Analysis (EDA)**: Visualize class distribution, sample images, and basic statistics.
+4. **Image Analysis**: Analyze image size, aspect ratio, contrast, and brightness distributions.
+5. **Preprocessing**: Apply custom preprocessing techniques, including histogram equalization and HOG feature extraction.
+6. **Feature Extraction**: Extract features using PCA and t-SNE for dimensionality reduction.
+7. **Model Building**: Define and train different CNN models (Custom CNN, InceptionV3, MobileNetV2).
+8. **Evaluation**: Evaluate model performance using accuracy, loss, confusion matrix, and ROC curve.
+9. **Saving and Loading Models**: Save the trained model and load it for future use.
+10. **Validation**: Validate the model on new images and classify them.
+
+### Example Usage
+
+To classify a new image using the trained model:
+
+1. Load the trained model:
+
+   ```python
+   model_path = 'best_model.h5'
+   model = load_trained_model(model_path)
+   ```
+
+2. Preprocess and classify the image:
+   ```python
+   uploaded_image_path = 'path/to/your/image.jpg'
+   class_label, confidence = classify_image(uploaded_image_path, model)
+   print(f'The uploaded image is classified as {class_label} with a confidence of {confidence:.2f}')
+   ```
 
 ### Contributing
 
