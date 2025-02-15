@@ -25,13 +25,13 @@ This project leverages deep learning techniques to automate the identification o
 ## Features
 
 - **Image Preprocessing**: Automatic resizing, normalization, and augmentation of images.
-  ![Image Preprocessing](https://miro.medium.com/max/1400/1*e1Zt8xG8gk5v0Z9zv1Jg3Q.png)
+  ![Image Preprocessing](https://fastercapital.co/i/Computer-vision-algorithm-Exploring-the-Fundamentals-of-Computer-Vision-Algorithms--Image-Preprocessing-Techniques.webp)
 - **Deep Learning Model**: Implementation of CNNs for binary or multi-class image classification.
-  ![Deep Learning Model](https://miro.medium.com/max/1400/1*e1Zt8xG8gk5v0Z9zv1Jg3Q.png)
+  ![Deep Learning Model](https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/06/16031110/Deep-learning.png)
 - **Visualization**: Use of PCA and t-SNE for dimensionality reduction and data visualization.
-  ![PCA and t-SNE](https://miro.medium.com/max/1400/1*e1Zt8xG8gk5v0Z9zv1Jg3Q.png)
+  ![PCA and t-SNE](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a2c695c-1e52-48f4-96b2-3b733b57d903_4983x4203.jpeg)
 - **Performance Evaluation**: Metrics such as accuracy, precision, recall, and F1-score for model evaluation.
-  ![Performance Evaluation](https://miro.medium.com/max/1400/1*e1Zt8xG8gk5v0Z9zv1Jg3Q.png)
+  ![Performance Evaluation](https://dataexpertise.in/wp-content/uploads/2023/12/ML-Model-Performance-768x387.png)
 
 ---
 
