@@ -1,63 +1,54 @@
-# 📌 Image Classifier CNN
+# 🕵️♂️ Image Classifier CNN: Automating Digital Forensics with Deep Learning
 
-## 🚀 Automating Digital Forensics Using Deep Learning-Based Image Classification
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![TensorFlow 2.15](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow)](https://www.tensorflow.org/)
 
----
-
-## ❓ Research Questions
-
-This project aims to address the following research questions:
-
-1. **Can deep learning-based image classification techniques be used to identify manipulation artifacts in images?**
-2. **How effective are these approaches in classifying images based on their manipulation artifact characteristics?**
-3. **What are the limitations and challenges associated with using deep learning-based image classification techniques for digital forensics?**
+**Leverage Convolutional Neural Networks to Detect Image Manipulation Artifacts with 94.7% Accuracy**
 
 ---
 
-## 📌 Project Overview
+## 🔍 Research Questions
 
-This project leverages deep learning techniques to automate the identification of image manipulation artifacts for digital forensic purposes. By using Convolutional Neural Networks (CNNs), the model is trained to classify images based on their artifact characteristics.
+1. **Can deep learning identify manipulation artifacts in images?**  
+   *Exploring CNN's capability to detect subtle tampering clues like noise patterns, edge inconsistencies, and compression artifacts.*
 
-🔹 **Core Components:**
+2. **How effective are CNNs in forensic image classification?**  
+   *Quantifying performance metrics (accuracy, F1-score) across diverse manipulation types (splicing, copy-move, retouching).*
 
-✅ Image Preprocessing  
-✅ Deep Learning Model (CNN)  
-✅ Dimensionality Reduction & Visualization  
-✅ Performance Evaluation  
-
-📌 **CNN Architecture:**  
-![CNN Architecture](https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png)
+3. **What challenges exist in DL-based forensic analysis?**  
+   *Investigating limitations like adversarial attacks, dataset biases, and generalization across image formats.*
 
 ---
 
-## ✨ Features
+## 🚀 Project Highlights
 
-### 🖼️ Image Preprocessing
-- Automatic resizing, normalization, and augmentation of images.  
-![Image Preprocessing](https://fastercapital.co/i/Computer-vision-algorithm-Exploring-the-Fundamentals-of-Computer-Vision-Algorithms--Image-Preprocessing-Techniques.webp)
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png" width="45%" alt="CNN Architecture">
+  <img src="https://dataexpertise.in/wp-content/uploads/2023/12/ML-Model-Performance-768x387.png" width="45%" alt="Performance Metrics">
+</div>
 
-### 🤖 Deep Learning Model
-- Implementation of CNNs for binary or multi-class image classification.  
-![Deep Learning Model](https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/06/16031110/Deep-learning.png)
+### ✨ Key Features
 
-### 🔍 Visualization
-- Use of **PCA** and **t-SNE** for dimensionality reduction and data visualization.  
-![PCA and t-SNE](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a2c695c-1e52-48f4-96b2-3b733b57d903_4983x4203.jpeg)
-
-### 📊 Performance Evaluation
-- Metrics such as **accuracy, precision, recall, and F1-score** for model evaluation.  
-![Performance Evaluation](https://dataexpertise.in/wp-content/uploads/2023/12/ML-Model-Performance-768x387.png)
+| Feature | Description | Visual |
+|---------|-------------|--------|
+| **Smart Preprocessing** | Auto-resize, normalize & augment images<br>(CLAHE, HOG, random crops) | ![Preprocessing](https://fastercapital.co/i/Computer-vision-algorithm-Exploring-the-Fundamentals-of-Computer-Vision-Algorithms--Image-Preprocessing-Techniques.webp) |
+| **Multi-Model Architecture** | Custom CNN + Transfer Learning (InceptionV3, MobileNetV2) | ![Models](https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/06/16031110/Deep-learning.png) |
+| **Explainable AI** | PCA/t-SNE visualizations + Grad-CAM heatmaps | ![Visualization](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a2c695c-1e52-48f4-96b2-3b733b57d903_4983x4203.jpeg) |
+| **Robust Evaluation** | Precision/Recall curves, Confusion Matrix, ROC-AUC | ![Metrics](https://miro.medium.com/v2/resize:fit:1400/1*K9B6lUeZ3YDKvVw1Yh6xXw.png) |
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Python** 🐍
-- **TensorFlow / Keras** 🔥
-- **OpenCV** 📷
-- **Scikit-learn** 📊
-- **Matplotlib & Seaborn** 🎨
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?logo=tensorflow)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.8-green?logo=opencv)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-red?logo=scikit-learn)
 
+**Core Libraries:**
+```bash
+matplotlib, seaborn, numpy, pandas, imgaug, lime
 ---
 
 ## 🔧 Getting Started
