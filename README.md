@@ -32,7 +32,7 @@
 
 | Feature | Description | Visual |
 |---------|-------------|--------|
-| **Smart Preprocessing** | Auto-resize, normalize & augment images<br>(CLAHE, HOG, random crops) | ![Preprocessing](https://fastercapital.co/i/Computer-vision-algorithm-Exploring-the-Fundamentals-of-Computer-Vision-Algorithms--Image-Preprocessing-Techniques.webp) |
+| **Smart Preprocessing** | Auto-resize, normalize & augment images<br>(CLAHE, HOG, random crops) | ![Preprocessing](https://www.mdpi.com/agronomy/agronomy-13-00887/article_deploy/html/images/agronomy-13-00887-g001.png) |
 | **Multi-Model Architecture** | Custom CNN + Transfer Learning (InceptionV3, MobileNetV2) | ![Models](https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/06/16031110/Deep-learning.png) |
 | **Explainable AI** | PCA/t-SNE visualizations + Grad-CAM heatmaps | ![Visualization](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a2c695c-1e52-48f4-96b2-3b733b57d903_4983x4203.jpeg) |
 | **Robust Evaluation** | Precision/Recall curves, Confusion Matrix, ROC-AUC | ![Metrics](https://i0.wp.com/spotintelligence.com/wp-content/uploads/2024/06/roc-curve.jpg?resize=1024%2C576&ssl=1) |
