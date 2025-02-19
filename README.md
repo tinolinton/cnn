@@ -58,6 +58,8 @@ Ensure you have the following installed:
 
 - Python 3.9 or 3.10  
 - Required libraries:
+
+###
   ```sh
   pip install tensorflow opencv-python scikit-learn matplotlib seaborn
   ```
