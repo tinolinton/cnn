@@ -31,7 +31,7 @@ class F1Score(Metric):
         self.recall.reset_states()
 
 # --- Load trained model ---
-model_path = r'Custom_CNN_best_model.h5'
+model_path = r'MobileNetV2_best_model.h5'
 model = tf.keras.models.load_model(model_path, custom_objects={'f1_score': F1Score})
 
 # --- Image preprocessing ---
@@ -101,5 +101,8 @@ def predict():
     except Exception as e:
         return f"Error processing image: {e}", 500
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000)
+
+# Just expose the app object for Vercel
+app = app
