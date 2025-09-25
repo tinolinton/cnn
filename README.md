@@ -153,4 +153,4 @@ print(f'The uploaded image is classified as {class_label} with a confidence of {
 
 ## 📩 Contact
 
-📧 For any inquiries, feel free to reach out at: **[i@linton.co.zw]**
+📧 For any inquiries, feel free to reach out at: **[dev@chimaliro.com]**
