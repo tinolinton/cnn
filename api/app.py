@@ -31,7 +31,7 @@ class F1Score(Metric):
         self.recall.reset_states()
 
 # --- Load trained model ---
-model_path = r'MobileNetV2_best_model.h5'
+model_path = 'Custom_CNN_best_model.h5'
 model = tf.keras.models.load_model(model_path, custom_objects={'f1_score': F1Score})
 
 # --- Image preprocessing ---
@@ -85,24 +85,18 @@ def home():
 def predict():
     if 'image' not in request.files:
         return "No image uploaded", 400
-
     file = request.files['image']
     if file.filename == '':
         return "Empty filename", 400
-
     try:
         img_array = preprocess_image(file)
         prediction = model.predict(img_array)
         label = 'fake' if prediction[0] < 0.5 else 'real'
         confidence = round(float(1 - prediction[0] if label == 'fake' else prediction[0]), 2)
-
         return render_template_string(HTML_TEMPLATE, result={'label': label, 'confidence': confidence})
-
     except Exception as e:
         return f"Error processing image: {e}", 500
 
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', port=5000)
-
-# Just expose the app object for Vercel
-app = app
+# Expose the app for Render
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
